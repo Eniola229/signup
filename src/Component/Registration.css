@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+
+.form-container {
+  width: 400px;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e88e5;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #1e88e5;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #1e88e5;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.side-image-container {
+  margin-left: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.side-image-container h3 {
+  color: #1e88e5;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.success {
+  color: green;
+  margin-bottom: 1rem;
+}
